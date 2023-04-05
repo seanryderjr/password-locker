@@ -3,10 +3,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f5f5f5;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-color: #f5f5f5;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
