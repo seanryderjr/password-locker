@@ -6,7 +6,6 @@ body {
     background-color: #f5f5f5;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: white;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,7 +15,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: #333;
     font-size: 40px;
     font-weight: bold;
 
@@ -24,11 +23,11 @@ h1 {
 }
 
 h3 {
-    color: white;
+    color: #333;
     font-weight: bold;
     font-size: 25px;
     font-style: italic;
-    transform: translateY(-20px);
+    transform: translateY(-35px);
 }
 
 .allContainer {
@@ -46,13 +45,15 @@ fieldset {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     width: 500px;
     border: 1px solid #333;
     border-radius: 15px;
     padding: 30px;
     margin: 10px;
     box-shadow: 0 0 10px 0 #333;
+    background-color: lavender;
+    height: 250px;
+
 
 }
 
@@ -62,6 +63,8 @@ form {
     justify-content: center;
     align-items: center;
     width: 100%;
+    transform: translateY(-50px);
+    
 }
 
 label {
@@ -71,7 +74,8 @@ label {
     padding: 5px;
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: #333;
+
 
 }
 
@@ -120,13 +124,13 @@ th {
 
 th {
     font-size: large;
-    background-color: #333;
+    background-color: #7c7474;
 
 }
 
 td {
     font-size: smaller;
-    background-color: #f5f5f5;
+    background-color:lavender;
     color: #333;
 }
 
