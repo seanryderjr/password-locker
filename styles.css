@@ -124,6 +124,8 @@ body {
     border: none;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
+    background-color: #0077cc;
+    color: white;
   }
   
   button:hover {
