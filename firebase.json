@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "password-locker",
+    "public": "~\\Users\\seanr\\OneDrive\\Desktop\\dev\\password-locker",
     "ignore": [
       "firebase.json",
       "**/.*",
