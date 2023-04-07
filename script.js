@@ -41,7 +41,7 @@ function createRow(data, index) {
   cell1.textContent = data.websiteName;
   cell2.textContent = data.newPassword;
   cell3.textContent = data.date;
-  cell3.appendChild(updateButton);
+  cell2.appendChild(updateButton);
   const deleteButton = document.createElement('button');
   deleteButton.textContent = 'Delete';
   deleteButton.addEventListener('click', () => {
